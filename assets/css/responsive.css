@@ -1,0 +1,97 @@
+@media only screen and (min-width: 420px){
+
+header {
+
+    height: 100px;
+    width: 100%;
+    
+}
+    
+  .nav1  {
+
+    display: flex;
+    background-color: none;
+margin: 0 auto;
+   width: 250px;
+ justify-items: center;
+ 
+    
+}
+  
+
+  .nav1 > button{
+
+    background-color: #ffd076;
+
+  } 
+
+ .nav1 a{
+
+color: black;
+
+
+ }
+
+ .firstimg img {
+
+height: 200px;
+
+ }
+ 
+ .container-1  {
+
+display: flex;
+/* height: 200px; */
+align-items: center;
+padding: 20px;
+    
+ }
+ 
+ .container-2 {
+
+
+display: flex;
+width: 100%;
+justify-content: center;
+gap: 12px;
+
+
+
+ }
+
+.container-2 img{
+
+  /* width: 100%; */
+  width: 200px;
+    height: 220px;
+    margin: 0 auto;
+}
+
+.Popular-print{
+
+    width: 430px;
+    /* height: px; */
+    margin: 0 auto;
+    /* text-align: center; */
+    
+   
+}
+.img3{
+
+    /* width: 520px; */
+    /* height: px; */
+    text-align: center;
+    /* display: flex; */
+   
+}
+
+
+.Popular-print figcaption{
+
+  width: 200px;
+}
+
+
+
+}
+
