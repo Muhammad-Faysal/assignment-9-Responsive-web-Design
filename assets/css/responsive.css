@@ -3,7 +3,7 @@
 header {
 
     height: 100px;
-    width: 100%;
+    /* width: 100%; */
     
 }
     
@@ -35,7 +35,18 @@ color: black;
  .firstimg img {
 
 height: 200px;
+/* width: 100%; */
 
+ }
+ .firstimg figure {
+
+width: auto;
+
+ }
+
+ .section1 {
+
+  height: 600px;
  }
  
  .container-1  {
@@ -65,6 +76,7 @@ gap: 12px;
   width: 200px;
     height: 220px;
     margin: 0 auto;
+    object-position: 0px;
 }
 
 .Popular-print{
@@ -76,22 +88,30 @@ gap: 12px;
     
    
 }
-.img3{
+.img3 img{
 
-    /* width: 520px; */
-    /* height: px; */
-    text-align: center;
-    /* display: flex; */
+    object-fit: cover;
+    object-position: 0px;
    
+    
+
+    }
+    
+    .Popular-print figcaption{
+      
+      width: 200px;
+    }
+    
+  
+  .img3 figcaption{
+    
+    width: 422px;
+  }
+
+
+
+
+
 }
 
-
-.Popular-print figcaption{
-
-  width: 200px;
-}
-
-
-
-}
 
