@@ -1,4 +1,4 @@
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 550px){
 
 header {
 
@@ -34,7 +34,7 @@ color: black;
 
  .firstimg img {
 
-height: 200px;
+height: 250px;
 /* width: 100%; */
 
  }
@@ -46,7 +46,7 @@ width: auto;
 
  .section1 {
 
-  height: 800px;
+  height: 750px;
  }
  
  .container-1  {
@@ -55,6 +55,7 @@ display: flex;
 /* height: 200px; */
 align-items: center;
 padding: 20px;
+padding-left: 55px;
     
  }
  
@@ -105,7 +106,8 @@ gap: 12px;
   
   .img3 figcaption{
     
-    width: 422px;
+    /* width: 422px; */
+    width: 522px;
   }
 
 
@@ -126,6 +128,121 @@ gap: 12px;
 }
 
 
+.containerfirst img{
+
+height: 300px;
+width: 530px;
+/* margin: 0 auto; */
+white-space-collapse:;
+
 }
 
 
+.containerfirst {
+
+  margin: 0 auto;
+  width: 100%;
+  margin-left:  -135px;
+  align-content: center;
+}
+
+
+.containerfirst figcaption{
+
+  width: 530px;
+}
+.containerfirst h1{
+
+  margin: 0 auto;
+}
+
+
+.container{
+
+
+}
+
+.flex1{
+
+display: flex;
+gap: 4px;
+/* margin: 0 auto; */
+margin-left: -135px;
+}
+.flex2{
+
+display: flex;
+/* margin: 0 auto; */
+gap: 4px;
+margin-left: -135px;
+}
+.flex3{
+
+display: flex;
+/* margin: 0 auto; */
+gap: 4px;
+margin-left: -135px;
+}
+
+
+.footer-info{
+
+display: flex;
+
+justify-content: space-around;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media only screen and (min-width: 800px) {
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
