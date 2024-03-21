@@ -45,6 +45,12 @@ width: auto;
 
  }
 
+ .article img {
+
+  width: 180px;
+    height: 150px
+ }
+
  .section1 {
 
   height: 750px;
@@ -199,6 +205,7 @@ justify-content: space-around;
 
 
 
+  
 
 
 
@@ -246,6 +253,12 @@ header{
   height: 55px;
 }
 
+.nav1 > button:hover{
+
+
+  color: rgba(125, 12, 230, 0.653);
+  
+}
 .logo-1{
   position: absolute;
   
