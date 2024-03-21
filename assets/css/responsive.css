@@ -1,4 +1,4 @@
-@media only screen and (min-width: 420px){
+@media only screen and (min-width: 600px){
 
 header {
 
@@ -46,7 +46,7 @@ width: auto;
 
  .section1 {
 
-  height: 600px;
+  height: 800px;
  }
  
  .container-1  {
@@ -73,19 +73,19 @@ gap: 12px;
 .container-2 img{
 
   /* width: 100%; */
-  width: 200px;
-    height: 220px;
+  width: 250px;
+    height: 290px;
     margin: 0 auto;
     object-position: 0px;
 }
 
 .Popular-print{
 
-    width: 430px;
+    width: 530px;
     /* height: px; */
     margin: 0 auto;
     /* text-align: center; */
-    
+   
    
 }
 .img3 img{
@@ -93,13 +93,13 @@ gap: 12px;
     object-fit: cover;
     object-position: 0px;
    
-    
+    height: 290px;
 
     }
     
     .Popular-print figcaption{
       
-      width: 200px;
+      width: 250px;
     }
     
   
@@ -109,7 +109,21 @@ gap: 12px;
   }
 
 
+.img1 {
 
+  height: 290px;
+  
+}
+
+.img2 {
+
+  height: 290px;
+}
+
+.img3 {
+
+  height: 290px;
+}
 
 
 }
