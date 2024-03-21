@@ -22,6 +22,7 @@ margin: 0 auto;
   .nav1 > button{
 
     background-color: #ffd076;
+    /* background-color: blue; */
 
   } 
 
@@ -227,13 +228,34 @@ justify-content: space-around;
 }
 
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 728px) {
   
 
+  .nav1 {
 
+    gap: 12px;
+/* margin-left: 100px; */
+margin: auto;
+width: 100%;
 
+}
 
+header{
 
+  position: relative;
+  height: 55px;
+}
+
+.logo-1{
+  position: absolute;
+  
+width: 100%;
+}
+
+.Contact{
+width: 100%;
+  margin-left: auto;
+}
 
 
 
