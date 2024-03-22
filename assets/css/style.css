@@ -15,7 +15,7 @@ body{
     --color1: #e40f0f;
     --color2: #005f73;
     --color3: #147b81;
-    --color4: #64f654;
+    --color4: #30d51e;
     --color5: #e9d8a6;
     --color6: #ff9305;
     --color7: #ca6702;
@@ -57,41 +57,22 @@ text-align: center;
 
 }
 
-h1:hover{
-
-    color: var(--color10);
-}
-
 
 .section1 h1 {
-
 
     text-align: center;
     color: white;
     padding-top: 20px;
 }
 
-/* .container-2 {
 
-padding-bottom: 12px;
-display: flex;
-flex-direction: column;
-gap: 3px;
-width: ;
-    
-} */
-
-/* figcaption {
-
-
-
-    
-} */
 .nav1 {
 
     text-align: center;
     
 }
+
+
 .nav1 > button{
     width: 100px;
     height: 25px;
@@ -101,6 +82,8 @@ width: ;
     border-radius: 2px;
 /* box-shadow: 5px 5px 2px rgb(137, 97, 97); */
 }
+
+
 .nav1 a {
  
 color: white;
@@ -109,6 +92,8 @@ font-weight: bold;
 
 
 }
+
+
 .nav1 button :hover{
 
 
@@ -176,8 +161,6 @@ margin: 0 auto;
 padding-top: 30px;
 
 
-
-
 }
 
 /* .container-2{
@@ -193,16 +176,11 @@ padding-bottom: 20px;
 
 
 .Popular-print img{
-    
-    
+     
     width: 100%;
     height: 250px;
     object-fit: cover;
     object-position: 0px -90px;
-    
-
-    
- 
     
 }
 
@@ -265,6 +243,8 @@ height: 250px;
     /* width: 100%; */
     height: 250px;
 }
+
+
 .img3 figcaption:hover {
 
     color: var(--color4);
@@ -278,12 +258,11 @@ height: 250px;
     padding-bottom: 50px;
   /* width: 100%; */
   margin: 0 auto;
+
+
 }
 
 .Collection img{
-
-
-  
 
     width: 260px;
     text-align: center;
@@ -338,9 +317,9 @@ padding-top: 30px;
     height: 164px;
     margin-top: 20px;
 
-
-
 }
+
+
 .img-1 figcaption:hover {
 
    color: var(--color6);
@@ -358,10 +337,10 @@ border-width: 4px;
     border-radius: 5px;
 }
 
+
 .img-2 figcaption:hover {
 
     color: var(--color7);
-     
  }
 
 
@@ -374,6 +353,7 @@ border-radius: 5px;
 /* height: 235px; */
 
 }
+
 .img-3 figcaption:hover {
 
     color: var(--color2);
@@ -412,6 +392,7 @@ border-radius: 5px;
     color: var(--color9);
      
  }
+
 .img-6 >img{
 
 border-color: var(--color4);
@@ -429,6 +410,7 @@ border-radius: 5px;
     color: var(--color4);
      
  }
+
 .img-7 >img{
 
 border-color: var(--color3);
@@ -436,7 +418,6 @@ border-style: solid;
 border-width: 4px;
 /* height: 235px; */
 border-radius: 5px;
-
 
 }
 
@@ -446,13 +427,10 @@ border-radius: 5px;
      
  }
 
-.Collection figure{
 
+h1:hover{
 
-    /* position: relative; */
-/* width: 100%; */
-    /* margin: 0 auto; */
-
+    color: var(--color10);
 }
 
 
@@ -483,7 +461,6 @@ width: 100%;
 
     padding-left: 23px;
    
-
 }
 
 .footer-info strong{
