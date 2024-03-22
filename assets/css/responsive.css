@@ -70,7 +70,7 @@ padding-left: 55px;
 
 
   font-size: 1rem;
-  width: 500px;
+  width: 100%;
   text-align: justify;
   margin: 0 auto;
   align-items: center;
@@ -186,8 +186,9 @@ white-space-collapse:;
 }
 
 
-.container{
+.container figcaption{
 
+  width: 250px;
 
 }
 
@@ -222,7 +223,18 @@ justify-content: space-around;
 
   }
 
+  .container img{
 
+    width: 250px;
+    height: 290px;
+    object-position: 0%;
+  }
+
+
+  .img-3{
+
+   
+  }
 
 
 
@@ -257,7 +269,7 @@ justify-content: space-around;
 }
 
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 950px) {
   
 
   .nav1 {
@@ -281,6 +293,13 @@ header{
   color: rgba(125, 12, 230, 0.653);
   
 }
+
+.firstimg img {
+
+  height: 300px;
+  /* width: 100%; */
+  
+   }
 .logo-1{
   position: absolute;
   
@@ -317,14 +336,31 @@ width: 100%;
   justify-content: center;
   align-items: center;
   justify-content: space-around; */
+
+  margin-left: 45px;
 }
 
 
 
 
-.img3{
+.img3 {
 
-margin-left: 14px;
+margin-left: 62px;
+width: 300px;
+height: 330px;
+}
+
+.img1{
+  width: 300px;
+    height: 330px;
+
+
+}
+
+.img2{
+
+  width: 300px;
+  height: 330px;
 }
 
 .Popular-print{
@@ -337,6 +373,11 @@ margin-left: 14px;
 
 
 
+}
+
+.section1{
+
+height: 450px;
 
 
   
@@ -344,8 +385,8 @@ margin-left: 14px;
 
 .Popular-print img{
 
-  width: 250px;
-    height: 290px;
+  width: 300px;
+    height: 330px;
     margin: 0 auto;
     object-position: 0px;
 
@@ -353,14 +394,50 @@ margin-left: 14px;
 
 .Popular-print figcaption{
 
-  width: 250px;
+  width: 300px;
 }
 
 
+.containerfirst img{
+height: 350px;
+width: 940px;
+margin: 12px 0px 0px -207px ;
+
+}
+.containerfirst figcaption {
+ width: 940px;
+ margin-left: -203px;
+}
+
+.container img{
+
+/* display: inline-block;
+width: 100%; */
+
+}
 
 
+.container img{
+/* display: inline-block; */
+
+}
 
 
+.img-1{
+
+
+  /* display: inline-block; */
+}
+.img-2{
+
+
+  /* display: inline-block; */
+}
+.img-3{
+
+
+  /* display: inline-block; */
+}
 
 
 
